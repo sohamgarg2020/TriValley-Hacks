@@ -1,15 +1,23 @@
 public class Person {
     private String name;
+    
     private boolean isdriver;
-    private int contactnum;
+    
+    private double contactnum;
+
     private int numseats;
+    
     private Location startloc;
-    public Person(String nam, boolean isdri, int contact, int seats, Location l){
+
+    private Location destin;
+    
+    public Person(String nam, boolean isdri, double contact, int seats, Location l, Location d){
         name = nam;
         isdriver = isdri;
         contactnum = contact;
         numseats = seats;
         startloc = l;
+        destin = d;
     }
     public int getX(){
         return startloc.getX();
