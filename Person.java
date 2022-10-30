@@ -19,5 +19,7 @@ public class Person {
         startloc = l;
         destin = d;
     }
-    
+    public String getName(){
+        return name;
+    }
 }
