@@ -11,5 +11,12 @@ public class Person {
         numseats = seats;
         startloc = l;
     }
+    public int getX(){
+        return startloc.getX();
+    }
+    public int getY(){
+        return startloc.getY();
+    }
     
+
 }
