@@ -3,7 +3,7 @@ public class Person {
     
     private boolean isdriver;
     
-    private int contactnum;
+    private double contactnum;
 
     private int numseats;
     
@@ -11,7 +11,7 @@ public class Person {
 
     private Location destin;
     
-    public Person(String nam, boolean isdri, int contact, int seats, Location l, Location d){
+    public Person(String nam, boolean isdri, double contact, int seats, Location l, Location d){
         name = nam;
         isdriver = isdri;
         contactnum = contact;

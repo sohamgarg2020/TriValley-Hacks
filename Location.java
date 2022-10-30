@@ -1,15 +1,17 @@
 public class Location {
-    private int x;
-    private int y;
-    public Location(int xx, int yy){
-        x = xx;
-        y = yy;
+    private int xvalue;
+    private int yvalue;
+
+    public Location (int x, int y){
+        xvalue = x;
+        yvalue = y;
     }
-    public int getX(){
-        return x;
+
+    public int getXValue(){
+        return xvalue;
     }
-    public int getY(){
-        return y;
+
+    public int getYValue(){
+        return yvalue;
     }
 }
-
